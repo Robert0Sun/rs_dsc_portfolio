@@ -18,18 +18,19 @@
 # 2. If you are trying to print a string, what happens if you leave out one
 # of the quotation marks, or both?
 
-
+# got EOL while scanning string literal, syntax error and name error
 
 # 3. You can use a minus sign to make a negative number like -2.
 # What happens if you put a plus sign before a number? What about 2++2?
 
-
-
+# got SyntaxError: Missing parentheses in call to 'print'. Did you mean print(2++2)?
+# got TypeError: unsupported operand type(s) for +: 'builtin_function_or_method' and 'int'
 # 4. In math notation, leading zeros are ok, as in 09. What happens if you try
 # this in Python?  What about 011?
 
-
+#got SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+#what does octal mean?
 
 # 5. What happens if you have two values with no operator between them? "22", "11"
 
-
+"22"="11"

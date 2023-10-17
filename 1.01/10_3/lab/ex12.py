@@ -9,7 +9,13 @@
 # kilometers in a mile.
 
 
-
 # 3. If you run a 10 kilometer race in 42 minutes 42 seconds, what is your
 # average pace (time per mile in minutes and seconds)? What is your average
 # speed in miles per hour?
+#miles = 6.21
+#pace = 2562/miles
+#print (pace/60)
+
+x = 3
+x = x + 2
+print(x==5)
