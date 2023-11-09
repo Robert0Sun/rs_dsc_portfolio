@@ -25,4 +25,5 @@ print(math.ceil(math.floor(math.log10(math.sqrt(20)))))
 # take a look at these docs
 # https://docs.python.org/3/library/statistics.html
 stocks = [7.34, 8.12, 7.20, 9.10, 5.20]
-...
+
+print(statistics.median(stocks))

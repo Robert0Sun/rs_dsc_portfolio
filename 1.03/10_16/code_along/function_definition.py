@@ -28,9 +28,13 @@ def adderNoRet(x, y):
 # TODO: Create a function that takes in two numbers and multiplies them
 # together
 ...
+def multi(x,y):
+    return x*y
 
 # TODO: and then call this function to calc 2 * 2
 ...
+def multi(2,2):
+    return x*Y
 
 res0 = adderVar(2)
 print("adderVar(2)", res0)

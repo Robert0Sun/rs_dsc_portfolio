@@ -4,11 +4,14 @@ import csv
 class StockData:
     def __init__(self, filename):
         self.filename = filename
-        self.data = []
+        self.data = ['r']
 
     def read_csv(self):
-        with open(self.filename, 'r') as file:
+        with open(self.filename, 'r') as filename:
+            reader = csv.reader(filename, delimiter=',')
+    
             # TODO: Use the csv.reader function to read the contents of the file
+        
             reader = None  # Replace None with appropriate code
 
             # TODO: Skip the header of the CSV file

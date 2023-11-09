@@ -1,6 +1,7 @@
 import TKH.functions as tkh
 
 # import EasterEgg package here along with draw module
+from TKH.EasterEgg import draw as draw
 
 from Person import PersonClass
 
@@ -13,4 +14,4 @@ mutuals = tkh.mutual_friends(personM, personT)
 print("Mo & Tim both know", mutuals)
 
 # TODO: uncomment this line of code when your import is complete
-# draw.mystery_func()
+draw.mystery_func()

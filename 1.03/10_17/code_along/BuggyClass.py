@@ -1,9 +1,10 @@
 import Person
+from Person import PersonClass, makeSlides
 
 
-class Instructor(PersonClass):
+class Instructor(Person.PersonClass):
     def task(self):
-        makeSlides()
+        Person.makeSlides()
 
 
 if __name__ == "__main__":
