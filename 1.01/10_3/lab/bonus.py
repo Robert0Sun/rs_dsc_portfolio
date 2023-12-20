@@ -5,4 +5,3 @@
 # consider: what happens if the `input()` function takes in a
 # non-numeric answer. How will you handle erroneous values?
 
-...

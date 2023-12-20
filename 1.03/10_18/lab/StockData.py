@@ -12,7 +12,7 @@ class StockData:
     
             # TODO: Use the csv.reader function to read the contents of the file
         
-            reader = None  # Replace None with appropriate code
+            reader = csv.reader  # Replace None with appropriate code
 
             # TODO: Skip the header of the CSV file
 

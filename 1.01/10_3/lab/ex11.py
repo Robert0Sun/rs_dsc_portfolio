@@ -13,11 +13,13 @@
 # 1. In a print statement, what happens if you leave out one of the
 # parentheses, or both?
 
-
+#print('Hello worlds'
+#when a parentheses is left out you get a syntax error saying "unexpected EOF while parsing"
 
 # 2. If you are trying to print a string, what happens if you leave out one
 # of the quotation marks, or both?
 
+#print('Cheese)
 # got EOL while scanning string literal, syntax error and name error
 
 # 3. You can use a minus sign to make a negative number like -2.
@@ -25,6 +27,7 @@
 
 # got SyntaxError: Missing parentheses in call to 'print'. Did you mean print(2++2)?
 # got TypeError: unsupported operand type(s) for +: 'builtin_function_or_method' and 'int'
+
 # 4. In math notation, leading zeros are ok, as in 09. What happens if you try
 # this in Python?  What about 011?
 
@@ -33,4 +36,5 @@
 
 # 5. What happens if you have two values with no operator between them? "22", "11"
 
-"22"="11"
+#'22' = '11'
+#you get the SyntaxError: cannot assign to literal
